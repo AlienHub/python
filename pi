@@ -1,6 +1,13 @@
 #! /usr/bin/env python3 
 import math 
+#Modified into a function
+def CircleArea(radius):
+  area = math.pi * pow(radius,2)
+  return area;
+
+if __name__ = '__main__'
 r = 2
 area = math.pi * pow(r,2)
 print('Area is {:.10}'.foramt(area))
+
 
